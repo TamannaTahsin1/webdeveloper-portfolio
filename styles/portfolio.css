@@ -1,0 +1,45 @@
+/*common shared styles*/
+body{
+    font-family: 'Abhaya Libre', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+/*nav section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #2e2d2d;
+}
+.text-primary{
+    color: orangered;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border:none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+}
