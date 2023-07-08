@@ -77,10 +77,12 @@ nav a{
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 15px;
+
 }
 .banner-img{
     width: 500px;
-    height: 550px;
+    height: 600px;
+    
 }
 /*main section styles*/
 main{
@@ -145,4 +147,12 @@ main section{
     text-align: center;
     padding: 30px;
     color:#757575;
+}
+
+/*resume section*/
+.resume-column-title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
 }
