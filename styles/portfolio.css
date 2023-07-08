@@ -150,9 +150,33 @@ main section{
 }
 
 /*resume section*/
+.resume-container{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+.resume-container hr{
+    margin: 40px ;
+}
 .resume-column-title{
     color:  #474747;
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
+}
+.resume-item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institude{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.resume-item-institude, .resume-item-description{
+    color:  #757575;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
